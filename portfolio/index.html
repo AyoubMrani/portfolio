@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayoub Mrani Alaoui | Full Stack & Data Scientist</title>
+    <meta name="description"
+        content="Portfolio of Ayoub Mrani Alaoui - Full Stack Developer and Data Scientist specializing in React, Laravel, and Machine Learning.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/glass.css">
+</head>
+
+<body>
+    <!-- 3D Background Container -->
+    <div id="canvas-container"></div>
+
+    <nav class="glass-nav">
+        <div class="logo-container">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 5L35 12.5V27.5L20 35L5 27.5V12.5L20 5Z" stroke="#38bdf8" stroke-width="2"
+                    fill="rgba(56, 189, 248, 0.1)" />
+                <path d="M20 12V28M12 16L28 24M12 24L28 16" stroke="#818cf8" stroke-width="2" stroke-linecap="round" />
+                <circle cx="20" cy="20" r="3" fill="#fff" />
+            </svg>
+            <span class="logo-text">Ayoub<span class="highlight">.Dev</span></span>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="mobile-menu-btn">
+            <i data-lucide="menu"></i>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="badge">Available for Hire</div>
+                <h1>Hi, I'm Ayoub. <br> <span class="gradient-text">I Engineer Intelligence.</span></h1>
+                <p class="subtitle">Data Scientist & Full Stack Developer. I fuse powerful algorithms with stunning
+                    interfaces to create the web of tomorrow.</p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-padding">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text glass-card">
+                    <p class="lead">I don't just write code; I build intelligent ecosystems.</p>
+                    <p>With a Master's degree in <strong class="highlight">Data Science</strong> and professional
+                        experience in <strong class="highlight">Full Stack Development</strong>, I possess a rare hybrid
+                        skillset. I can design a database schema, train a neural network to analyze it, and build a
+                        React dashboard to visualize the results—all in the same week.</p>
+                    <p>My passion lies in solving real-world problems where data meets design. Whether it's optimizing
+                        hospital management systems or classifying 3D point clouds, I deliver solutions that are robust,
+                        scalable, and beautiful.</p>
+                </div>
+                <div class="experience-timeline">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-container">
+                <div class="skill-category glass-card">
+                    <h3><i data-lucide="code-2"></i> Web Development</h3>
+                    <div class="skill-tags" id="web-skills"></div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3><i data-lucide="brain-circuit"></i> Data Science & AI</h3>
+                    <div class="skill-tags" id="data-skills"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Dev</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container glass-card">
+                <div class="contact-content">
+                    <p class="contact-text">Ready to bring your ideas to life? Let's collaborate.</p>
+                    <a href="mailto:ayoubmranialaoui@gmail.com" class="btn btn-primary contact-btn">
+                        <i data-lucide="mail"></i> Send Email
+                    </a>
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <i data-lucide="map-pin"></i>
+                            <span>Martil, Morocco</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/AyoubMrani" target="_blank"><i data-lucide="github"></i></a>
+                            <a href="https://www.linkedin.com/in/ayoub-mrani-alaoui-1b5aa7237" target="_blank"><i
+                                    data-lucide="linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ayoub Mrani Alaoui. Built with Intelligent Design.</p>
+    </footer>
+
+    <!-- Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/three-bg.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/dissolve.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

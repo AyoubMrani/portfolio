@@ -1,0 +1,20 @@
+/* Scroll Animation Classes */
+.scroll-fade-item {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.scroll-fade-out {
+    opacity: 0;
+    transform: translateY(-40px) scale(0.9);
+    filter: blur(10px);
+}
+
+/* Ensure the about text and experience cards have this class applied via JS or default */
+.about-text,
+.experience-timeline .glass-card {
+    /* Base state will be handled by the class addition in JS, 
+       but we can set defaults here if we want them to start visible */
+}
