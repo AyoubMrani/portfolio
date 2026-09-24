@@ -1,5 +1,13 @@
 const projects = [
     {
+        title: "NTT Incident Platform (Incident Report Generator)",
+        description: "Unified React platform combining incident report generation and a chatbot module, powered by a FastAPI backend. Produces structured reports with JSON/Markdown/HTML exports and supports RAG-based retrieval over incident knowledge, with Docker Compose deployment.",
+        tech: ["React", "TypeScript", "Python", "FastAPI", "RAG", "Docker"],
+        category: "data",
+        github: "https://github.com/AyoubMrani/incident-report-generator/tree/recette",
+        demo: "#"
+    },
+    {
         title: "Smart City Energy Optimization",
         description: "Energy optimization system for Smart Cities using Django. Focuses on efficient resource management and data analysis.",
         tech: ["Python", "Django", "Data Analysis"],
@@ -86,6 +94,12 @@ const skills = {
 
 const experience = [
     {
+        role: "Data & Full Stack Intern",
+        company: "NTT Data",
+        period: "6-month internship",
+        desc: "Contributed to the Incident Report Generator / NTT Incident Platform by building modules across a unified React frontend and FastAPI backend, including structured report workflows and AI-assisted incident exploration."
+    },
+    {
         role: "Web Developer",
         company: "Up Network Maroc",
         period: "01/2024 - 06/2024",
@@ -103,8 +117,8 @@ const education = [
     {
         degree: "Master's Degree in Data Science",
         school: "University Abdelmalek Essaâdi, Ecole Normale Supérieure",
-        period: "2024 – Current",
-        desc: "Specialized in advanced machine learning, big data analytics, and statistical modeling."
+        period: "2024 – 2026",
+        desc: "Completed with a focus on advanced machine learning, big data analytics, and statistical modeling."
     },
     {
         degree: "Professional Bachelor's Degree in Software and Web Development",
